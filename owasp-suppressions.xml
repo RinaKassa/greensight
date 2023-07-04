@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+    <suppress>
+        <notes><![CDATA[
+        file name: commons-lang-2.6.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons\-lang/commons\-lang@.*$</packageUrl>
+        <cve>CVE-2021-38542</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: commons-lang-2.6.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons\-lang/commons\-lang@.*$</packageUrl>
+        <cve>CVE-2021-38542</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: commons-lang-2.6.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons\-lang/commons\-lang@.*$</packageUrl>
+        <cve>CVE-2021-40110</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: commons-lang-2.6.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons\-lang/commons\-lang@.*$</packageUrl>
+        <cve>CVE-2021-40111</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: commons-lang-2.6.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons\-lang/commons\-lang@.*$</packageUrl>
+        <cve>CVE-2021-40525</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: open:0.0.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/open@.*$</packageUrl>
+        <vulnerabilityName>1061542</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: open:0.0.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/open@.*$</packageUrl>
+        <vulnerabilityName>1061542</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: braces:1.8.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/braces@.*$</packageUrl>
+        <vulnerabilityName>1060106</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: braces:1.8.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/braces@.*$</packageUrl>
+        <vulnerabilityName>1061570</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: braces:1.8.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/braces@.*$</packageUrl>
+        <cve>CVE-2018-1109</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: braces:1.8.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/braces@.*$</packageUrl>
+        <vulnerabilityName>CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: acorn:3.3.0
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/acorn@.*$</packageUrl>
+        <vulnerabilityName>CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: ansi-html:0.0.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/ansi\-html@.*$</packageUrl>
+        <cpe>cpe:/a:ansi-html_project:ansi-html</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: ansi-html:0.0.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/ansi\-html@.*$</packageUrl>
+        <vulnerabilityName>1059337</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: ansi-html:0.0.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/ansi\-html@.*$</packageUrl>
+        <cve>CVE-2021-23424</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: commons-io-2.4.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons\-io/commons\-io@.*$</packageUrl>
+        <cpe>cpe:/a:apache:commons_io</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: commons-io-2.4.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons\-io/commons\-io@.*$</packageUrl>
+        <cve>CVE-2021-29425</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: faye-websocket:0.7.3
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/faye\-websocket@.*$</packageUrl>
+        <cpe>cpe:/a:faye-websocket_project:faye-websocket</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: faye-websocket:0.7.3
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/faye\-websocket@.*$</packageUrl>
+        <cve>CVE-2020-15133</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: glob-parent:2.0.0
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/glob\-parent@.*$</packageUrl>
+        <vulnerabilityName>1059828</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: guava-26.0-jre.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/com\.google\.guava/guava@.*$</packageUrl>
+        <cpe>cpe:/a:google:guava</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: guava-26.0-jre.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/com\.google\.guava/guava@.*$</packageUrl>
+        <cve>CVE-2020-8908</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: minimist:0.0.10
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/minimist@.*$</packageUrl>
+        <cpe>cpe:/a:substack:minimist</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: minimist:0.0.10
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/minimist@.*$</packageUrl>
+        <vulnerabilityName>1061405</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: minimist:0.0.10
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/minimist@.*$</packageUrl>
+        <cve>CVE-2020-7598</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: minimist:0.0.10
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/minimist@.*$</packageUrl>
+        <vulnerabilityName>CWE-94: Improper Control of Generation of Code ('Code Injection')</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: node-fetch:1.7.3
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/node\-fetch@.*$</packageUrl>
+        <cpe>cpe:/a:node-fetch_project:node-fetch</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: node-fetch:1.7.3
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/node\-fetch@.*$</packageUrl>
+        <vulnerabilityName>1059402</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: node-fetch:1.7.3
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/node\-fetch@.*$</packageUrl>
+        <cve>CVE-2020-15168</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: node-fetch:1.7.3
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/node\-fetch@.*$</packageUrl>
+        <cve>CVE-2022-0235</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: node-fetch:1.7.3
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/node\-fetch@.*$</packageUrl>
+        <vulnerabilityName>CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.commands-3.10.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.commands@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:platform</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.commands-3.10.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.commands@.*$</packageUrl>
+        <cve>CVE-2020-27225</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.contenttype-3.8.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.contenttype@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:platform</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.contenttype-3.8.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.contenttype@.*$</packageUrl>
+        <cve>CVE-2020-27225</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.jobs-3.12.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.jobs@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:platform</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.jobs-3.12.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.jobs@.*$</packageUrl>
+        <cve>CVE-2020-27225</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.resources-3.16.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.resources@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:platform</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.resources-3.16.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.resources@.*$</packageUrl>
+        <cve>CVE-2020-27225</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.runtime-3.24.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.runtime@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:platform</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.runtime-3.24.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.runtime@.*$</packageUrl>
+        <cve>CVE-2020-27225</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.equinox.common-3.15.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.equinox\.common@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:equinox</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.equinox.common-3.15.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.equinox\.common@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:platform</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.equinox.common-3.15.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.equinox\.common@.*$</packageUrl>
+        <cve>CVE-2020-27225</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.equinox.common-3.15.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.equinox\.common@.*$</packageUrl>
+        <cve>CVE-2021-41033</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.equinox.preferences-3.9.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.equinox\.preferences@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:equinox</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.equinox.preferences-3.9.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.equinox\.preferences@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:platform</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.equinox.preferences-3.9.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.equinox\.preferences@.*$</packageUrl>
+        <cve>CVE-2020-27225</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.equinox.preferences-3.9.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.equinox\.preferences@.*$</packageUrl>
+        <cve>CVE-2021-41033</cve>
+     </suppress>
+      
+     <suppress>
+        <notes><![CDATA[
+        file name: postcss:5.2.18
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/postcss@.*$</packageUrl>
+        <cpe>cpe:/a:postcss:postcss</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: postcss:5.2.18
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/postcss@.*$</packageUrl>
+        <vulnerabilityName>1059356</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: postcss:5.2.18
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/postcss@.*$</packageUrl>
+        <cve>CVE-2021-23382</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: react-dev-utils:0.5.2
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/react\-dev\-utils@.*$</packageUrl>
+        <vulnerabilityName>1060185</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-analyzer-commons-1.11.0.541.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.sonarsource\.analyzer\-commons/sonar\-analyzer\-commons@.*$</packageUrl>
+        <cpe>cpe:/a:sonarsource:sonarqube</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-analyzer-commons-1.11.0.541.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.sonarsource\.analyzer\-commons/sonar\-analyzer\-commons@.*$</packageUrl>
+        <cve>CVE-2018-19413</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-analyzer-commons-1.11.0.541.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.sonarsource\.analyzer\-commons/sonar\-analyzer\-commons@.*$</packageUrl>
+        <cve>CVE-2019-17579</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-java-plugin-5.13.1.18282.jar (shaded: org.sonarsource.analyzer-commons:sonar-analyzer-commons:1.10.2.456)
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.sonarsource\.analyzer\-commons/sonar\-analyzer\-commons@.*$</packageUrl>
+        <cpe>cpe:/a:sonarsource:sonarqube</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-java-plugin-5.13.1.18282.jar (shaded: org.sonarsource.analyzer-commons:sonar-analyzer-commons:1.10.2.456)
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.sonarsource\.analyzer\-commons/sonar\-analyzer\-commons@.*$</packageUrl>
+        <cve>CVE-2018-19413</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-java-plugin-5.13.1.18282.jar (shaded: org.sonarsource.analyzer-commons:sonar-analyzer-commons:1.10.2.456)
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.sonarsource\.analyzer\-commons/sonar\-analyzer\-commons@.*$</packageUrl>
+        <cve>CVE-2019-17579</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-plugin-api-7.9.4.jar (shaded: com.google.guava:guava:18.0)
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/com\.google\.guava/guava@.*$</packageUrl>
+        <cpe>cpe:/a:google:guava</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-plugin-api-7.9.4.jar (shaded: com.google.guava:guava:18.0)
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/com\.google\.guava/guava@.*$</packageUrl>
+        <cve>CVE-2018-10237</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-plugin-api-7.9.4.jar (shaded: com.google.guava:guava:18.0)
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/com\.google\.guava/guava@.*$</packageUrl>
+        <cve>CVE-2020-8908</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-plugin-api-7.9.4.jar (shaded: commons-io:commons-io:2.6)
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons\-io/commons\-io@.*$</packageUrl>
+        <cpe>cpe:/a:apache:commons_io</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-plugin-api-7.9.4.jar (shaded: commons-io:commons-io:2.6)
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons\-io/commons\-io@.*$</packageUrl>
+        <cve>CVE-2021-29425</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: webpack-dev-server:1.16.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/webpack\-dev\-server@.*$</packageUrl>
+        <cpe>cpe:/a:webpack.js:webpack-dev-server</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: webpack-dev-server:1.16.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/webpack\-dev\-server@.*$</packageUrl>
+        <vulnerabilityName>1061731</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: webpack-dev-server:1.16.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/webpack\-dev\-server@.*$</packageUrl>
+        <cve>CVE-2018-14732</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: webpack-dev-server:1.16.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/webpack\-dev\-server@.*$</packageUrl>
+        <vulnerabilityName>CWE-346: Origin Validation Error</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: webpack-dev-server:1.16.5
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/webpack\-dev\-server@.*$</packageUrl>
+        <vulnerabilityName>DNS rebinding vulnerability</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: glob-parent:2.0.0
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/glob\-parent@.*$</packageUrl>
+        <vulnerabilityName>CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: node-fetch:1.7.3
+        ]]></notes>
+        <packageUrl regex="true">^pkg:npm/node\-fetch@.*$</packageUrl>
+        <vulnerabilityName>1060314</vulnerabilityName>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.commands-3.10.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.commands@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:equinox</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.commands-3.10.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.commands@.*$</packageUrl>
+        <cve>CVE-2021-41033</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.contenttype-3.8.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.contenttype@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:equinox</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.contenttype-3.8.100.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.contenttype@.*$</packageUrl>
+        <cve>CVE-2021-41033</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.jobs-3.12.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.jobs@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:equinox</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.jobs-3.12.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.jobs@.*$</packageUrl>
+        <cve>CVE-2021-41033</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.runtime-3.24.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.runtime@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:equinox</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.core.runtime-3.24.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.core\.runtime@.*$</packageUrl>
+        <cve>CVE-2021-41033</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.text-3.12.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.text@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:platform</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.text-3.12.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.text@.*$</packageUrl>
+        <cve>CVE-2020-27225</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-java-plugin-5.13.1.18282.jar (shaded: org.sonarsource.analyzer-commons:sonar-analyzer-recognizers:1.10.2.456)
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.sonarsource\.analyzer\-commons/sonar\-analyzer\-recognizers@.*$</packageUrl>
+        <cpe>cpe:/a:sonarsource:sonarqube</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-java-plugin-5.13.1.18282.jar (shaded: org.sonarsource.analyzer-commons:sonar-analyzer-recognizers:1.10.2.456)
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.sonarsource\.analyzer\-commons/sonar\-analyzer\-recognizers@.*$</packageUrl>
+        <cve>CVE-2018-19413</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: sonar-java-plugin-5.13.1.18282.jar (shaded: org.sonarsource.analyzer-commons:sonar-analyzer-recognizers:1.10.2.456)
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.sonarsource\.analyzer\-commons/sonar\-analyzer\-recognizers@.*$</packageUrl>
+        <cve>CVE-2019-17579</cve>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.text-3.12.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.text@.*$</packageUrl>
+        <cpe>cpe:/a:eclipse:equinox</cpe>
+     </suppress>
+     <suppress>
+        <notes><![CDATA[
+        file name: org.eclipse.text-3.12.0.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.eclipse\.platform/org\.eclipse\.text@.*$</packageUrl>
+        <cve>CVE-2021-41033</cve>
+     </suppress>
+     <suppress>
+      <notes><![CDATA[
+      file name: sonar-java-plugin-5.13.1.18282.jar (shaded: org.sonarsource.analyzer-commons:sonar-analyzer-test-commons:1.10.2.456)
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/org\.sonarsource\.analyzer\-commons/sonar\-analyzer\-test\-commons@.*$</packageUrl>
+      <cpe>cpe:/a:sonarsource:sonarqube</cpe>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: sonar-java-plugin-5.13.1.18282.jar (shaded: org.sonarsource.analyzer-commons:sonar-analyzer-test-commons:1.10.2.456)
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/org\.sonarsource\.analyzer\-commons/sonar\-analyzer\-test\-commons@.*$</packageUrl>
+      <cve>CVE-2018-19413</cve>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: sonar-java-plugin-5.13.1.18282.jar (shaded: org.sonarsource.analyzer-commons:sonar-analyzer-test-commons:1.10.2.456)
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/org\.sonarsource\.analyzer\-commons/sonar\-analyzer\-test\-commons@.*$</packageUrl>
+      <cve>CVE-2019-17579</cve>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: ansi-html:0.0.5
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/ansi\-html@.*$</packageUrl>
+      <vulnerabilityName>1064582</vulnerabilityName>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: braces:1.8.5
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/braces@.*$</packageUrl>
+      <cpe>cpe:/a:braces_project:braces</cpe>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: braces:1.8.5
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/braces@.*$</packageUrl>
+      <vulnerabilityName>1065350</vulnerabilityName>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: braces:1.8.5
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/braces@.*$</packageUrl>
+      <vulnerabilityName>1066814</vulnerabilityName>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: glob-parent:2.0.0
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/glob\-parent@.*$</packageUrl>
+      <vulnerabilityName>1065072</vulnerabilityName>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: minimist:0.0.10
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/minimist@.*$</packageUrl>
+      <vulnerabilityName>1066649</vulnerabilityName>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: node-fetch:1.7.3
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/node\-fetch@.*$</packageUrl>
+      <vulnerabilityName>1064646</vulnerabilityName>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: node-fetch:1.7.3
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/node\-fetch@.*$</packageUrl>
+      <vulnerabilityName>1065558</vulnerabilityName>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: open:0.0.5
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/open@.*$</packageUrl>
+      <vulnerabilityName>1066786</vulnerabilityName>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: postcss:5.2.18
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/postcss@.*$</packageUrl>
+      <vulnerabilityName>1064600</vulnerabilityName>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: react-dev-utils:0.5.2
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/react\-dev\-utils@.*$</packageUrl>
+      <vulnerabilityName>1065429</vulnerabilityName>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: webpack-dev-server:1.16.5
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/webpack\-dev\-server@.*$</packageUrl>
+      <vulnerabilityName>1066975</vulnerabilityName>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+      file name: ansi-regex:2.1.1
+      ]]></notes>
+      <packageUrl regex="true">^pkg:npm/ansi\-regex@.*$</packageUrl>
+      <cpe>cpe:/a:ansi-regex_project:ansi-regex</cpe>
+   </suppress>
+
+</suppressions>

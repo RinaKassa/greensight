@@ -1,0 +1,48 @@
+[
+  {
+    "filePath": "C:\\Users\\ecoffino\\Documents\\Greensight\\dev\\greensight\\sonarqube-plugin\\plugin\\src\\test.js",
+    "messages": [
+      {
+        "ruleId": "greensight/avoid-empty-methods",
+        "severity": 1,
+        "message": "Function 'testEmpty' has empty body",
+        "line": 1,
+        "column": 1,
+        "nodeType": "FunctionDeclaration",
+        "messageId": "emptyBody",
+        "endLine": 1,
+        "endColumn": 23
+      },
+      {
+        "ruleId": "greensight/query-not-select-star",
+        "severity": 1,
+        "message": "Do not use select * in SQL queries",
+        "line": 2,
+        "column": 13,
+        "nodeType": "Literal",
+        "messageId": "selectStar",
+        "endLine": 2,
+        "endColumn": 37
+      },
+      {
+        "ruleId": "greensight/var-not-increment-or-decrement-unused",
+        "severity": 1,
+        "message": "var 'cpt' is updated but never used",
+        "line": 6,
+        "column": 1,
+        "nodeType": "UpdateExpression",
+        "messageId": "updatedUnused",
+        "endLine": 6,
+        "endColumn": 6
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 3,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "function testEmpty(){};\r\nvar query = \"SELECT * from Students\";\r\n\r\nvar cpt;\r\n\r\ncpt++;",
+    "usedDeprecatedRules": []
+  }
+]

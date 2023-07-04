@@ -1,0 +1,14 @@
+node/
+node_modules
+target/
+.idea/
+
+sonar-example-plugin.iml
+yarn.lock
+
+*.log
+*.iml
+
+!.editorconfig
+!.eslintrc.js
+!.gitattributes

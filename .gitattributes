@@ -1,0 +1,5 @@
+# tell git to normalize line end to LF (even on windows where by default it is set to CRLF)
+# line ending should be set with "git config core.eol lf" once
+# to be extra sure, eol is also defined here
+# see https://stackoverflow.com/a/13154031
+* text=auto eol=lf
