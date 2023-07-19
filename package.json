@@ -14,7 +14,7 @@
     "babel-preset-vue": "^2.0.2",
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",
-    "eslint": "^8.2.0",
+    "eslint": "^8.45.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-webpack": "^0.13.2",
@@ -35,7 +35,8 @@
     "vue-loader": "^17.0.0",
     "webpack": "^5.73.0",
     "webpack-bundle-analyzer": "^4.5.0",
-    "webpack-dev-server": "^4.9.3"
+    "webpack-dev-server": "^4.9.3",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "build": "npx webpack --node-env production",
