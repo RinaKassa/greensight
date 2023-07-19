@@ -28,6 +28,8 @@
   - [Bundle](#bundle)
   - [Profil qualités (quality profile)](#profil-qualités-quality-profile)
   - [Règles (checks ou rules)](#règles-checks-ou-rules)
+- [Erreurs](#erreurs)
+
 
 ## Préambule
 
@@ -122,7 +124,7 @@ Il est recommandé d'utiliser VSCode pour le développement du front.
 
 ### Développement sur le back (Java)
 
-InteliJ IDEA est recommandé pour le back.  
+InteliJ IDEA est recommandé pour le back.
 Pour exécuter les tests unitaires JUnit, IDEA doit être configuré comme ci-dessous :
 
 ![](docs/Debug%20config%20InteliJ%20IDEA.png)
@@ -137,7 +139,7 @@ Démarre le serveur de développement.
 
 ### npm run build
 
-Permet de produire un build prêt pour la production. Cette commande sera utilisée par maven lors du package.  
+Permet de produire un build prêt pour la production. Cette commande sera utilisée par maven lors du package.
 **Cette commande ne doit pas être exécutée manuellement** sauf pour tester le bon fonctionnement de webpack.
 
 ### mvn package
@@ -146,7 +148,7 @@ Permet de générer un jar prêt pour la production.
 
 ### npm run lint
 
-Exécute eslint et affiche tous les problèmes dans le code.  
+Exécute eslint et affiche tous les problèmes dans le code.
 Toute la configuration de eslint est dans [.eslintrc.js](.eslintrc.js)
 
 Pour faire un eslint fix :
@@ -195,19 +197,19 @@ sur la taille du bundle
 
 #### Webpack
 
-Voir [webpack.config.js](webpack.config.js)  
+Voir [webpack.config.js](webpack.config.js)
 Bundler pour maven et le serveur de développement.
 
 #### Babel
 
-Voir [babel.config.js](babel.config.js)  
+Voir [babel.config.js](babel.config.js)
 Compile le code javascript, assure la compatibilité du code avec d'anciens navigateurs internet.
 
 :information_source: Voir browserlist pour définir la liste des navigateurs compatibles.
 
 #### Postcss
 
-Voir [postcss.config.js](postcss.config.js)  
+Voir [postcss.config.js](postcss.config.js)
 Compile le css et assure la compatibilité du code avec d'anciens navigateurs internet.
 
 :information_source: voir browserlist pour définir la liste des navigateurs compatibles.
@@ -219,7 +221,7 @@ Compile le css et assure la compatibilité du code avec d'anciens navigateurs in
 Le paramètre important est le premier dans [webpack.config.js](webpack.config.js): `mode`.
 Il permet d'activer ou non toutes les optimisations de webpack en mode production.
 
-:warning: Les builds de prod n'ont pas de source-map, aussi bien pour le css que le js. Ce qui réduit drastiquement la 
+:warning: Les builds de prod n'ont pas de source-map, aussi bien pour le css que le js. Ce qui réduit drastiquement la
 taille des fichiers mais rend le débogage plus difficile (voir impossible).
 
 #### CSS
@@ -228,7 +230,7 @@ En développement, webpack utilise `style-loader`. Le css est donc inséré en i
 
 En production,
 **Le css est inséré à la main, voir [index.jsx](src/main/js/greensight_tab/index.jsx)**.
-Webpack avec le plugin `MiniCssExtractPlugin` sort un fichier css appart.  
+Webpack avec le plugin `MiniCssExtractPlugin` sort un fichier css appart.
 Ceci à plusieurs avantages :
 
 - Chargement parallélisé du js et css.
@@ -244,12 +246,17 @@ Les fichiers de sortie se trouvent dans `target/classes/static`
 
 ### Profil qualités (quality profile)
 
-Rassemble les règles pour un langage en particulier.  
+Rassemble les règles pour un langage en particulier.
 Il y a au moins un profil par langage mais il est possible d'avoir des quality profiles avec le même nom pour plusieurs langages de programmation.
 Exemple : `Sonar way` est présent sur pratiquement tous les langages supportés par Sonarqube.
 On peut aussi personnaliser les paramètres des règles (`@Ruleproperty` dans le code back) si celles-ci le permettent.
 
 ### Règles (checks ou rules)
 
-Il s'agit d'une exigence pour le code, ces règles vérifient si le code répond aux critères définis.  
+Il s'agit d'une exigence pour le code, ces règles vérifient si le code répond aux critères définis.
 Si une ligne ou un bout de code transgresse une ou plusieurs règles, le back se charge de le signaler à Sonarqube.
+
+### Erreurs
+
+Si vous rencontrez l'erreur "Could not perform Node Audit analysis". Veuillez supprimer le dossier node_module et
+le fichier package-lock.json ensuite lancer ``npm install`` avant ``mvn clean install``.
