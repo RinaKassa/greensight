@@ -132,7 +132,8 @@ Pour exécuter les tests unitaires JUnit, IDEA doit être configuré comme ci-de
 ## Utilisation
 
 **Avant de lancer les commandes ci-dessous, assurez-vous que Sonarqube soit démarré et opérationnel.**
-
+- Installer SonaQube 8.9
+- Lancer la commande ``.\bin\windows-x86-64\StartSonar.bat``
 ### npm run start (ou npm start)
 
 Démarre le serveur de développement.

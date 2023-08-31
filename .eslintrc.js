@@ -12,7 +12,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['prettier', 'greensight'],
+  plugins: ['prettier', 'greensight', 'angular'],
   settings: {
     // tell eslint-import-resolver-webpack to read webpack config to learn import alias
     'import/resolver': {
@@ -24,10 +24,15 @@ module.exports = {
     'prettier/prettier': 'error',
 
     // greensight rules
+
     'greensight/avoid-empty-methods': 'warn',
     'greensight/query-not-select-star': 'warn',
 
     // "greensight/var-not-increment-or-decrement": "warn",
+
+    // angular rules
+    'angular/check-package-usage': 'warn',
+    'angular/check-gitignore-items': 'warn',
 
     // custom rules
     // enforce blank line before comment
@@ -48,17 +53,10 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/latest/rules/no-mixed-operators
-    'no-confusing-arrow': [
-      'error',
-      { allowParens: false, onlyOneSimpleParam: true },
-    ],
+    'no-confusing-arrow': ['error', { allowParens: false, onlyOneSimpleParam: true }],
 
     // ensure single quote are used
-    quotes: [
-      'error',
-      'single',
-      { avoidEscape: true, allowTemplateLiterals: false },
-    ],
+    quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: false }],
   },
   overrides: [
     {

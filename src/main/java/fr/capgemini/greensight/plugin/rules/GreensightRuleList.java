@@ -63,15 +63,4 @@ public class GreensightRuleList {
 
         return PythonRuleSet;
     }
-
-    /**
-     * @return Greensight Angular rules
-     */
-    public static List<Class<?>> getAngularRules() {
-        if (AngularRuleSet == null) {
-            AngularRuleSet = getRules("fr.capgemini.greensight.plugin.rules.checks.javascript.angular");
-        }
-
-        return AngularRuleSet;
-    }
 }

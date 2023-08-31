@@ -18,11 +18,12 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-webpack": "^0.13.2",
+    "eslint-plugin-angular": "file:src/eslint-plugin-angular",
     "eslint-plugin-greensight": "file:src/eslint-plugin-greensight",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vue": "^9.4.0",
+    "eslint-plugin-vue": "^9.17.0",
     "eslint-plugin-vuejs-accessibility": "^1.2.0",
     "mini-css-extract-plugin": "^2.6.1",
     "postcss": "^8.4.14",
@@ -35,8 +36,7 @@
     "vue-loader": "^17.0.0",
     "webpack": "^5.73.0",
     "webpack-bundle-analyzer": "^4.5.0",
-    "webpack-dev-server": "^4.9.3",
-    "yarn": "^1.22.19"
+    "webpack-dev-server": "^4.9.3"
   },
   "scripts": {
     "build": "npx webpack --node-env production",

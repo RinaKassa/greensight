@@ -19,7 +19,6 @@
         <sonarjava.version>7.2.0.26923</sonarjava.version>
         <sonarphp.version>3.23.1.8766</sonarphp.version>
         <sonarpython.version>3.4.1.8066</sonarpython.version>
-        <sonarjavascript.version>6.6.0.13923</sonarjavascript.version>
         <sonar.apiVersion>8.9.9.56886</sonar.apiVersion>
     </properties>
 
@@ -59,12 +58,6 @@
             <artifactId>sonar-python-plugin</artifactId>
             <type>sonar-plugin</type>
             <version>${sonarpython.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.sonarsource.javascript</groupId>
-            <artifactId>sonar-javascript-plugin</artifactId>
-            <type>sonar-plugin</type>
-            <version>${sonarjavascript.version}</version>
         </dependency>
 
         <dependency>
@@ -114,7 +107,6 @@
                     <requirePlugins>java:${sonarjava.version}</requirePlugins>
                     <requirePlugins>php:${sonarphp.version}</requirePlugins>
                     <requirePlugins>python:${sonarpython.version}</requirePlugins>
-                    <requirePlugins>javascript:${sonarjavascript.version}</requirePlugins>
                 </configuration>
             </plugin>
             <plugin>
@@ -177,7 +169,7 @@
             <plugin>
                 <groupId>org.owasp</groupId>
                 <artifactId>dependency-check-maven</artifactId>
-                <version>7.1.1</version>
+                <version>7.3.2</version>
                 <executions>
                     <execution>
                         <goals>
