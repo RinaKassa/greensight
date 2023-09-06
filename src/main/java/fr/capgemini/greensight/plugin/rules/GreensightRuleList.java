@@ -18,6 +18,7 @@ public class GreensightRuleList {
     private static List<Class<?>> JavaRuleSet;
     private static List<Class<?>> PhpRuleSet;
     private static List<Class<?>> PythonRuleSet;
+    private static List<Class<?>> AngularRuleSet;
 
     /**
      * Return class that are annotated with @Rule inside specified package
