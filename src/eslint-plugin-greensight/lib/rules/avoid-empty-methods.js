@@ -23,7 +23,6 @@ module.exports = {
     return {
       FunctionDeclaration(node) {
         if (node.body.body[0] == null) {
-          // context.report(node, "Supprimez les fonctions avec un corps vide");
           context.report({
             node,
             messageId: 'emptyBody',
