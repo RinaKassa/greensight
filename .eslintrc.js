@@ -32,6 +32,7 @@ module.exports = {
 
     // angular rules
     'angular/check-gitignore-items': 'warn',
+    'angular/no-empty-files': 'error',
 
     // custom rules
     // enforce blank line before comment
@@ -59,7 +60,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.jsx', '*.js', '*.vue'],
+      files: ['*.jsx', '*.js', '*.vue', '*.css', '*.ts'],
     },
   ],
 };
