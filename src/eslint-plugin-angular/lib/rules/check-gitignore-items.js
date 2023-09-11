@@ -6,6 +6,7 @@
 //------------------------------------------------------------------------------
 // Rule Definition
 //------------------------------------------------------------------------------
+const fs = require('fs');
 
 /**
  * @type {import('eslint').Rule.RuleModule}
@@ -17,11 +18,10 @@ module.exports = {
       description: 'Check if specific items are present in .gitignore',
       recommended: false,
     },
-    schema: []
+    schema: [],
   },
   create: function (context) {
-      const gitignorePath = '.gitignore';// à récupérer le bon fichier
-      const patternsToCheck = [
+      const itemsToCheck = [
         "/dist",
         "/tmp",
         "/out-tsc",
@@ -50,13 +50,14 @@ module.exports = {
       ];
 
       // Read the content of .gitignore file
-      const gitignoreContent = fs.readFileSync(gitignorePath, 'utf8');
+      const gitignoreContent = fs.readFileSync(require.resolve("../../../../.gitignore"), 'utf8');
 
+      console.log("Content", gitignoreContent);
       // Check if each item is present in .gitignore
       itemsToCheck.forEach((item) => {
         if (gitignoreContent.indexOf(item) === -1) {
           context.report({
-            node: null,
+            node: context.getScope().block,
             message: `Item "${item}" is missing in .gitignore file.`,
           });
         }
