@@ -31,7 +31,6 @@ module.exports = {
     // "greensight/var-not-increment-or-decrement": "warn",
 
     // angular rules
-    'angular/check-package-usage': 'warn',
     'angular/check-gitignore-items': 'warn',
 
     // custom rules
